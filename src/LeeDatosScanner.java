@@ -1,5 +1,7 @@
 import java.util.Scanner;
-
+/**
+ * Lectura de datos desde teclado usando la clase Scanner.
+ */
 public class LeeDatosScanner {
     public static void main(String[] args){
         Scanner s = new Scanner(System.in);
