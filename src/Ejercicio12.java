@@ -1,0 +1,17 @@
+public class Ejercicio12 {
+    public static void main(String[] args){
+        System.out.print("Introduzca la nota del primer examen: ");
+        double nota1 = Double.parseDouble(System.console().readLine());
+
+
+        System.out.print("¿Qué nots quieres sacar en el trimestre?");
+        double notaFinal = Double.parseDouble(System.console().readLine());
+
+
+        double nota2 = ((notaFinal * 100) - (nota1 * 40) / 60);
+
+        System.out.println("Para tener un " + notaFinal + "en el trimestre");
+        System.out.printf("Necesitas sacar un " + nota2);
+        System.out.println(" en el segundo examen.");
+    }
+}
